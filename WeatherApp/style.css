@@ -1,0 +1,114 @@
+/* Google fonts link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root{
+    --color-black: #252831;
+    --color-white: #ffffff;
+    --color-background: #1261a0;
+    --color-card: #6b778d;
+    --color-glass: rgba(255,255,255,0.5);
+    --color-btn: #ff6768;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100px;
+    color: var(--color-black);
+    background-image: url("icons/background.jpg");
+    font-family: 'Poppins', sans-serif;
+}
+
+#search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#temp {
+    text-align: center;
+}
+
+#temp #temp-unit {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    color: var(--color-black);
+}
+
+#temp #temp-value {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    color: var(--color-black);
+}
+
+#climate {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    color: var(--color-black);
+}
+
+#location {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    color: var(--color-black);
+}
+
+#temp-icon {
+    margin: 1rem;
+    width: 40%;
+    height: auto;
+}
+
+main {
+    padding: 20px;
+    margin-top: 10px;
+    background-color: var(--color-glass);
+    border-radius: 20px;
+    width: 360px;
+    height: 360px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px 20px 10px rgba(112, 102, 102, 0.2);
+}
+
+#search-button {
+    color: var(--color-white);
+    text-transform: uppercase;
+    text-decoration: none;
+    background: var(--color-btn);
+    border-radius: 5px;
+    margin-left: 5px;
+    padding: 11px;
+    border: 2px solid var(--color-btn);
+    transition: all 0.4 ease 0s;
+}
+
+#search-button:hover{
+    color: var(--color-btn);
+    background: var(--color-glass);
+    border-color: var(--color-btn);
+    transition: all 0.4s ease 0s;
+}
+
+#search-input{
+    width: 260px;
+    overflow: hidden;
+    font-size: 20px;
+    margin: 8px 0;
+    padding: 8px 0;
+    border-bottom: 3px solid var(--color-btn);
+    color: var(--color-black);
+    background: none;
+}
+
+input{
+    border: none;
+}
