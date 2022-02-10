@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>NFT Collection</title>
+        <!-- Importing css -->
+        <link rel="stylesheet" href="style.css">
+        <!-- Importing swiper css -->
+        <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+        <!-- Importing box icons -->
+        <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+
+        <!-- Custom Scroll Bar -->
+        <div class="progress">
+            <div class="progressbar" id="scroll-bar"></div>
+        </div>
+
+        <!-- Header -->
+        <header>
+
+            <div class="nav container">
+                <a href="index.html" class="logo">NFT <span>Collection</span></a>
+                <div class="nav-icons">
+                    <i class="bx bx-bell bx-tada" id="bell-icon"><span></span></i>
+                    <i class="bx bxs-download"></i>
+                    <div class="menu-icon">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="line3"></div>
+                    </div>
+                </div>
+
+                <!-- Menu -->
+                <div class="menu">
+                    <!-- Img Tag -->
+                    <img src="images/menu.png" alt="menu">
+                    <div class="navbar">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#trending">Trending</a></li>
+                        <li><a href="#new">New Nfts</a></li>
+                        <li><a href="#latest">Latest Nfts</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </div>
+                </div>
+
+                <!-- Notification -->
+                <div class="notification">
+                    <div class="noti-box">
+                        <i class="bx bxs-check-circle"></i>
+                        <p>Hey, explore out our new set of nfts :)</p>
+                    </div>
+
+                    <div class="noti-box box-color">
+                        <i class="bx bx-x-circle"></i>
+                        <p>Warning! Insufficient balance</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </header>
+        <!-- Home Section -->
+        <section class="home container" id="home">
+            <img src="images/home.jpg" alt="home">
+            <div class="home-text">
+                <h1>CITY OF THE <br> FUTURE</h1>
+                <a href="#" class="btn">Available now</a>
+            </div>
+        </section>
+
+        <!-- Trending section -->
+        <section class="trending container" id="trending">
+            <div class="heading">
+                <i class="bx bxs-flame"></i>
+                <h2>Trending Nfts</h2>
+            </div>
+            <div class="trending-content swiper">
+                <div class="swiper-wrapper">
+
+                    <!-- Trending box 1 -->
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <img src="images/Bored Ape Yacht Club.png" alt="nft-trending">
+                            <div class="box-text">
+                                <h2>Bored Ape Yacht Club</h2>
+                                <h3>Trending</h3>
+                                <div class="rating-download">
+                                    <div class="rating">
+                                        <i class="bx bxs-star"></i>
+                                        <span>4.7</span>
+                                    </div>
+                                    <a href="images/Bored Ape Yacht Club.png" class="box-btn"><i class="bx bx-down-arrow-alt"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Trending box 2 -->
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <img src="images/Meta Legend.png" alt="nft-trending">
+                            <div class="box-text">
+                                <h2>Meta Legend</h2>
+                                <h3>Trending</h3>
+                                <div class="rating-download">
+                                    <div class="rating">
+                                        <i class="bx bxs-star"></i>
+                                        <span>4.7</span>
+                                    </div>
+                                    <a href="images/Meta Legend.png" class="box-btn"><i class="bx bx-down-arrow-alt"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                     <!-- Trending box 3 -->
+                     <div class="swiper-slide">
+                        <div class="box">
+                            <img src="images/CLONE X.png" alt="nft-trending">
+                            <div class="box-text">
+                                <h2>Clone X</h2>
+                                <h3>Trending</h3>
+                                <div class="rating-download">
+                                    <div class="rating">
+                                        <i class="bx bxs-star"></i>
+                                        <span>4.7</span>
+                                    </div>
+                                    <a href="images/CLONE X.png" class="box-btn"><i class="bx bx-down-arrow-alt"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                     <!-- Trending box 4 -->
+                     <div class="swiper-slide">
+                        <div class="box">
+                            <img src="images/CryptoPunks.png" alt="nft-trending">
+                            <div class="box-text">
+                                <h2>CryptoPunk</h2>
+                                <h3>Trending</h3>
+                                <div class="rating-download">
+                                    <div class="rating">
+                                        <i class="bx bxs-star"></i>
+                                        <span>4.7</span>
+                                    </div>
+                                    <a href="images/CryptoPunks.png" class="box-btn"><i class="bx bx-down-arrow-alt"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                     <!-- Trending box 5 -->
+                     <div class="swiper-slide">
+                        <div class="box">
+                            <img src="images/Mutant Ape Yacht Club.png" alt="nft-trending">
+                            <div class="box-text">
+                                <h2>Mutant Ape Yacht Club</h2>
+                                <h3>Trending</h3>
+                                <div class="rating-download">
+                                    <div class="rating">
+                                        <i class="bx bxs-star"></i>
+                                        <span>4.7</span>
+                                    </div>
+                                    <a href="images/Mutant Ape Yacht Club.png" class="box-btn"><i class="bx bx-down-arrow-alt"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                     <!-- Trending box 6 -->
+                     <div class="swiper-slide">
+                        <div class="box">
+                            <img src="images/Doodle.png" alt="nft-trending">
+                            <div class="box-text">
+                                <h2>Doodle</h2>
+                                <h3>Trending</h3>
+                                <div class="rating-download">
+                                    <div class="rating">
+                                        <i class="bx bxs-star"></i>
+                                        <span>4.7</span>
+                                    </div>
+                                    <a href="images/Doodle.png" class="box-btn"><i class="bx bx-down-arrow-alt"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                     <!-- Trending box 7 -->
+                     <div class="swiper-slide">
+                        <div class="box">
+                            <img src="images/Pepsi Mic Drop.png" alt="nft-trending">
+                            <div class="box-text">
+                                <h2>Pepsi Mic Drop</h2>
+                                <h3>Trending</h3>
+                                <div class="rating-download">
+                                    <div class="rating">
+                                        <i class="bx bxs-star"></i>
+                                        <span>4.7</span>
+                                    </div>
+                                    <a href="images/Pepsi Mic Drop.png" class="box-btn"><i class="bx bx-down-arrow-alt"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                     <!-- Trending box 8 -->
+                     <div class="swiper-slide">
+                        <div class="box">
+                            <img src="images/Kong.png" alt="nft-trending">
+                            <div class="box-text">
+                                <h2>Kong</h2>
+                                <h3>Trending</h3>
+                                <div class="rating-download">
+                                    <div class="rating">
+                                        <i class="bx bxs-star"></i>
+                                        <span>4.7</span>
+                                    </div>
+                                    <a href="images/Kong.png" class="box-btn"><i class="bx bx-down-arrow-alt"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- Trending section ends -->
+
+        <!-- Latest Section -->
+        <section class="new container" id="new">
+            <div class="heading">
+                <i class="bx bx-infinite"></i>
+                <h2>Latest Nfts</h2>
+            </div>
+
+            <div class="new-content">
+
+                <!-- card 1 -->
+                <div class="box">
+                    <img src="images/Ape Kids Club.png" alt="nft-latest">
+                    <div class="box-text">
+                        <h2>Ape Kids Club</h2>
+                        <h3>Latest</h3>
+                        <div class="rating-download">
+                            <div class="rating">
+                                <i class="bx bxs-star"></i>
+                                <span>4.7</span>
+                            </div>
+                            <a href="images/Ape Kids Club.png" class="box-btn"><i class="bx bx-down-arrow-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="box">
+                    <img src="images/Crypto bull.png" alt="nft-latest">
+                    <div class="box-text">
+                        <h2>Crypto Bull</h2>
+                        <h3>Latest</h3>
+                        <div class="rating-download">
+                            <div class="rating">
+                                <i class="bx bxs-star"></i>
+                                <span>4.7</span>
+                            </div>
+                            <a href="images/Crypto bull.png" class="box-btn"><i class="bx bx-down-arrow-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="box">
+                    <img src="images/Desperate ApeWife.png" alt="nft-latest">
+                    <div class="box-text">
+                        <h2>Desperate ApeWife</h2>
+                        <h3>Latest</h3>
+                        <div class="rating-download">
+                            <div class="rating">
+                                <i class="bx bxs-star"></i>
+                                <span>4.7</span>
+                            </div>
+                            <a href="images/Desperate ApeWife.png" class="box-btn"><i class="bx bx-down-arrow-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="box">
+                    <img src="images/Gutter Cat.png" alt="nft-latest">
+                    <div class="box-text">
+                        <h2>Gutter Cat</h2>
+                        <h3>Latest</h3>
+                        <div class="rating-download">
+                            <div class="rating">
+                                <i class="bx bxs-star"></i>
+                                <span>4.7</span>
+                            </div>
+                            <a href="images/Gutter Cat.png" class="box-btn"><i class="bx bx-down-arrow-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="box">
+                    <img src="images/Hooligan.png" alt="nft-latest">
+                    <div class="box-text">
+                        <h2>Hooligan</h2>
+                        <h3>Latest</h3>
+                        <div class="rating-download">
+                            <div class="rating">
+                                <i class="bx bxs-star"></i>
+                                <span>4.7</span>
+                            </div>
+                            <a href="images/Hooligan.png" class="box-btn"><i class="bx bx-down-arrow-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="box">
+                    <img src="images/Kongz.png" alt="nft-latest">
+                    <div class="box-text">
+                        <h2>Kongz</h2>
+                        <h3>Latest</h3>
+                        <div class="rating-download">
+                            <div class="rating">
+                                <i class="bx bxs-star"></i>
+                                <span>4.7</span>
+                            </div>
+                            <a href="images/Kongz.png" class="box-btn"><i class="bx bx-down-arrow-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 7 -->
+                <div class="box">
+                    <img src="images/Slotie.png" alt="nft-latest">
+                    <div class="box-text">
+                        <h2>Slotie</h2>
+                        <h3>Latest</h3>
+                        <div class="rating-download">
+                            <div class="rating">
+                                <i class="bx bxs-star"></i>
+                                <span>4.7</span>
+                            </div>
+                            <a href="images/Slotie.png" class="box-btn"><i class="bx bx-down-arrow-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 8 -->
+                <div class="box">
+                    <img src="images/Squish.png" alt="nft-latest">
+                    <div class="box-text">
+                        <h2>Squish</h2>
+                        <h3>Latest</h3>
+                        <div class="rating-download">
+                            <div class="rating">
+                                <i class="bx bxs-star"></i>
+                                <span>4.7</span>
+                            </div>
+                            <a href="images/Squish.png" class="box-btn"><i class="bx bx-down-arrow-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="next-page">
+                <a href="#home">Back To Top &#8593;</a>
+            </div>
+        </section>
+        <!-- Latest section ends -->
+
+        <!-- Copyright -->
+        <div class="copyright container">
+            <a href="#" class="logo">Nft <span>Collection</span></a>
+            <p>© Debonmoy Pal. All rights reserved.</p>
+        </div>
+
+        <!-- Linking swiper js file -->
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+        <!-- Linking js file -->
+        <script src="script.js"></script>
+    </body>
+</html>
